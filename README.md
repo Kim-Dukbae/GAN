@@ -1,7 +1,5 @@
 # GAN
-
-A curated collection of key papers and implementations in Generative Adversarial Networks (GANs).  
-This repository aims to explore various GAN architectures, their principles, and practical insights for building generative models.
+pytorch를 사용한 고품질, 고해상도 **이미지**생성.
 
 ## 📚 Core Papers
 
@@ -25,9 +23,7 @@ This repository aims to explore various GAN architectures, their principles, and
 
 
 ## ✍️ Notes & Experiments
-모든 논문의 모델을 구현하지는 않습니다.  
-GAN은 **적대적 학습**이라는 아이디어 자체가 혁신적이지만, 2014년에 제시된 원조 GAN은 실제 고품질 이미지 생성에는 한계가 있습니다.  
-이 레포지토리에서는 각 논문의 **핵심 아이디어를 간결하게 구현**하고,  **적은 파라미터로 고해상도 생성 이미지를 다루는 실험**에 집중할 예정입니다.
+모든 논문의 모델을 구현하지는 않습니다. GAN은 **적대적 학습**이라는 아이디어 자체가 혁신적이지만, 2014년에 제시된 원조 GAN은 실제 고품질 이미지 생성에는 한계가 있습니다. 이 레포지토리에서는 각 논문의 **핵심 아이디어를 간결하게 구현**하고, **적은 파라미터로 고해상도 생성 이미지를 다루는 실험**에 집중할 예정입니다.
 
 ---
 
