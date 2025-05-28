@@ -1,1 +1,34 @@
 # GAN
+
+A curated collection of key papers and implementations in Generative Adversarial Networks (GANs).  
+This repository aims to explore various GAN architectures, their principles, and practical insights for building generative models.
+
+## 📚 Core Papers
+
+- **[GAN (2014)](https://arxiv.org/abs/1406.2661)**  
+  *적대적 신경망 구조* — 생성자와 판별자의 경쟁을 통해 데이터 분포를 학습.
+
+- **[LAPGAN (2015)](https://arxiv.org/abs/1506.05751)**  
+  *이미지 피라미드 구조* — 저해상도부터 고해상도로 점진적으로 생성하여 이미지 품질 향상.
+
+- **[DCGAN (2015)](https://arxiv.org/abs/1511.06434)**  
+  *합성곱 신경망 기반 GAN* — 이미지 생성에 특화된 깊은 네트워크 구조 도입.
+
+- **[InfoGAN (2016)](https://arxiv.org/abs/1606.03657)**  
+  *설명 가능한 생성 제어* — 잠재 변수에 의미를 부여하여 출력 이미지의 속성 조절 가능.
+
+- **[WGAN (2017)](https://arxiv.org/abs/1701.07875)**  
+  *지구 거리 기반 손실 함수* — 기울기 소실 및 불안정한 학습 문제를 완화.
+
+- **[PGGAN (2017)](https://arxiv.org/abs/1710.10196)**  
+  *점진적 해상도 증가* — 저해상도부터 시작해 점차 고해상도로 확장하여 안정적이고 세밀한 이미지 생성.
+
+
+## ✍️ Notes & Experiments
+모든 논문의 모델을 구현하지는 않습니다.  
+GAN은 **적대적 학습**이라는 아이디어 자체가 혁신적이지만, 2014년에 제시된 원조 GAN은 실제 고품질 이미지 생성에는 한계가 있습니다.  
+이 레포지토리에서는 각 논문의 **핵심 아이디어를 간결하게 구현**하고,  **적은 파라미터로 고해상도 생성 이미지를 다루는 실험**에 집중할 예정입니다.
+
+---
+
+Feel free to explore each model's folder for source code and training details.
